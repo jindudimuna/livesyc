@@ -40,7 +40,17 @@ ul{
 }
 
 a{
-	color: #40D800;
+	color: white;
 	text-decoration: none;
-	font-size: 10px;
+}
+
+button{
+	background-color: #0A7CEA;
+	color: white;
+	border: none;
+	margin:8px ;
+	border-radius: 12px;
+	font-size: 1.2rem;
+	padding: 10px;
+	cursor: pointer;
 }
