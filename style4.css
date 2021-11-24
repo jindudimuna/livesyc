@@ -1,0 +1,50 @@
+body{
+	background: #111111;
+}
+
+h1{
+	font-family: "aviano sans regular";
+	color: #B10000;
+	box-shadow: 4px 4px 5px #00000080;
+	border-radius: 26px;
+	text-shadow: 0 0 50px #0072ff;
+	
+
+width: 300px;
+
+}
+
+
+img{
+
+	width: 30%;
+	height: 30%;
+	margin: 5px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+img:hover {
+transform: scale(1.1);
+
+}
+
+#Div3 {
+	font-family: langith;
+	text-align: left;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap-reverse;
+justify-content: center;
+
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

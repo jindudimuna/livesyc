@@ -1,0 +1,76 @@
+/*selector {
+	property: value;
+}*/
+body {
+background-image: url(cover.jpg);
+background-size: 100% auto;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+h1{
+text-align: center;
+color: white;
+font-family: "aviano sans regular";
+font-size: 20px;
+}
+
+.animate__fadeInDown{
+	animation-duration: 3s;
+
+}
+
+ p{ 
+	line-height: 1.5;
+	color: #FFC6C2;
+	cursor:pointer;
+	font-family: "langith";
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+	 animation: color-change 1s infinite;
+
+}
+
+@keyframes color-change {
+  0% { color: #FFC6C2; }
+  50% { color: white;}
+  100% { color: #0C0C0C; }
+}
+
+
+ .aap .animate__backInUp{
+	animation-duration: 3s;
+
+
+}
+
+
+
+a{
+
+	font-family: langith;
+	color: white;
+
+
+}
+
+.navbar-brand {
+	font-family: "street power";
+	font-size: 60px;
+
+}
+ footer {
+ 	display: flex;
+ 	justify-content: center;
+ 	color: white;
+ 	margin-top: 10%;
+ 	font-size: 30px;
+ }
+
+
+.fa-instagram {
+  color: White;
+  text-decoration: none;
+
+}

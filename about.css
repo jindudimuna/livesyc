@@ -1,0 +1,46 @@
+body {
+	background-color: #08070B;
+}
+
+
+
+.animate__slideInDown{
+	animation-duration:3s;
+	font-family: "aviano sans regular";
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+
+.container {
+	display: grid;
+	grid-column: 1/3;
+	grid-row: 2/3;
+	width: 30%;
+
+}
+
+.contributor{
+	text-decoration: underline;
+	text-align: center;
+	font-family: "langith";
+	font-size: 30px;
+	color: white;
+}
+
+.animate__slideInUp {
+	animation-duration: 3s;
+	font-family: "aviano sans regular";
+	font-size: 20px;
+	text-align: center;
+}
+
+ul{
+	color: white;
+}
+
+a{
+	color: #40D800;
+	text-decoration: none;
+	font-size: 10px;
+}
