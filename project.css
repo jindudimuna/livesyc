@@ -19,7 +19,8 @@ a{
 .container {
 	display: flex;
 	justify-content: center;
-	margin-top: 20%;
+	margin-top: 30%;
+	
 
 }
 .animate__fadeInDown{
