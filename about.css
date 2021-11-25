@@ -7,7 +7,7 @@ body {
 .animate__slideInDown{
 	animation-duration:3s;
 	font-family: "aviano sans regular";
-	font-size: 20px;
+	font-size: 2rem;
 	padding: 10px;
 	color: white;
 }
@@ -24,14 +24,14 @@ body {
 	text-decoration: underline;
 	text-align: center;
 	font-family: "langith";
-	font-size: 30px;
+	font-size: 2rem;
 	color: white;
 }
 
 .animate__slideInUp {
 	animation-duration: 3s;
 	font-family: "aviano sans regular";
-	font-size: 20px;
+	font-size: 1.5rem;
 	text-align: center;
 }
 
