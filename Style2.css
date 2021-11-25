@@ -84,7 +84,7 @@ a{
 	}
 }
 
-@media only screen and (max-width :812px){
+@media only screen and (max-width :600px){
 	a {
 		font-size: 60px;
 	}
