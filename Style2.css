@@ -2,7 +2,8 @@
 	property: value;
 }*/
 body {
-background-image: url(cover.jpg);
+	
+background-image: url(home.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 background-color: black;
