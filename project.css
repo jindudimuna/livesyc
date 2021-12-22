@@ -5,14 +5,14 @@ body {
 
 ul{
 
-font-family: "Red October";
+font-family: 'Righteous', cursive;
 }
 
 a{
 	text-decoration: none;
 	color: #DD0006;
 	justify-items: center;
-	font-size: 3vw;
+	font-size: 3em;
 
 }
 
