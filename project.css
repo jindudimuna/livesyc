@@ -6,6 +6,7 @@ body {
 ul{
 
 font-family: 'Righteous', cursive;
+margin-top: 10%;
 }
 
 a{
@@ -16,14 +17,24 @@ a{
 
 }
 
-.container {
+/* .container {
 	display: flex;
 	justify-content: center;
-	margin-top: 30%;
+	margin-top: 10%;
 	
 
-}
+} */
 .animate__fadeInDown{
 
 	animation-duration: 2s;
+}
+
+
+@media only screen and (max-width: 500px) {
+.container{
+
+	margin-top: 50%;
+}
+
+
 }
