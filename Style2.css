@@ -5,6 +5,11 @@ body, html {
 	height: 100%;
 }
 
+
+span.navbar-toggler-icon{
+	font-size: 2em;
+
+}
 .bg{
 	background-image: url(home.jpg);
 	height: 100%;
