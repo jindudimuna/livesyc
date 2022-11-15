@@ -3,6 +3,7 @@
     color: black;
     font-family: 'Righteous', cursive;
     font-size: 2em;
+    margin-top: 3%;
 
 
 }
@@ -25,7 +26,14 @@
 
 
 .projects{
-    margin-top: 50%;
+    margin-top: 40%;
+}
+
+.project-links{
+  
+    margin-top: 5%;
+
+
 }
 
 }
