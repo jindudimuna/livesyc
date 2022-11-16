@@ -1,193 +1,163 @@
-.logo{
-
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10%;
-    margin-top: 2%;
-    font-family: 'Michroma', 'roboto';
-
-
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-top: 2%;
+  font-family: "Michroma", "roboto";
 }
 
-.navbar-nav{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.navbar-nav {
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
 }
-.fa-bars{
+.fa-bars {
+  font-size: 2em;
+  color: black;
+}
+
+.fas {
+  padding-right: 2%;
+  color: black;
+}
+
+a.nav-link {
+  font-size: 1.5em;
+}
+
+.hero-image {
+  width: 60vh;
+}
+
+.hero {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.intro {
+  font-family: "Righteous", cursive;
+  font-size: 4em;
+  color: black;
+  margin-bottom: 8%;
+}
+
+.description {
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: "Michroma", "roboto";
+  color: black;
+  margin-top: 2em;
+}
+
+.social-links {
+  color: red;
+  font-size: 2em;
+}
+
+.footer-pic {
+  width: 60vh;
+}
+
+.footer-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-image-2 {
+  margin-left: 6%;
+  margin-top: 10%;
+}
+
+.footer-banner-2 {
+  margin-top: 5%;
+}
+
+.footer-pic-2 {
+  width: 100vw;
+}
+
+.foot-title {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+.btn {
+  height: 80%;
+  width: 20%;
+}
+
+.message {
+  color: white;
+  font-size: 2em;
+}
+
+.shop-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 414px) {
+  a.nav-link {
+    font-size: 1.2em;
+  }
+  .intro {
+    font-family: "Righteous", cursive;
     font-size: 2em;
-    color: black;
-}
-
-.fas{
-    padding-right: 2%;
-    color: black;
-}
-
-a.nav-link{
-    
-    font-size: 1.5em;
-}
-
-
-.hero-image{
-    width: 60vh;
-}
-
-.hero{
-    margin-top: 10%;
-    margin-left: 5%;
-}
-.intro{
-    font-family: 'Righteous', cursive;
-    font-size: 4em;
     color: black;
     margin-bottom: 8%;
+  }
 
-    
+  .collapse {
+    margin-left: 2%;
+  }
 
-}
+  .hero-image {
+    width: 32vh;
+    height: 43vh;
+  }
 
-
-.description{
-    margin-top: 10%;
-    margin-left: 5%;
+  .hero-banners {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
+    overflow-x: auto;
+    gap: 5%;
+  }
 
-
-.title{
-    font-family: 'Michroma', 'roboto';
-    color: black;
-    margin-top: 2em;
-}
-
-
-.social-links{
-    color: red;
-    font-size: 2em;
- 
-}
-
-.footer-pic{
-    width: 60vh;
-}
-
-.footer-images{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
-
-.footer-image-2{
-    margin-left: 6%;
-    margin-top:10%;
-}
-
-.footer-banner-2{
-    margin-top: 5%;
-}
-
-.footer-pic-2{
-    width:100vw;
-}
-
-.foot-title{
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-bottom: 10%;
-
-}
-
-.btn{
-
-    height: 80%;
-    width: 20%;
-}
-
-.message{
-    color: white;
-    font-size: 2em;
-}
-
-
-.shop-link{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-@media only screen and ( max-width: 414px){
-
-
-    a.nav-link{
-    
-        font-size: 1.2em;
-    }
-    .intro{
-        font-family: 'Righteous', cursive;
-        font-size: 2em;
-        color: black;
-        margin-bottom: 8%;
-        
-    
-    }
-
-    .collapse{
-        margin-left: 2%;
-    }
-
-    .hero-image{
-        width: 32vh;
-        height: 43vh;
-    }
-
-    .hero-banners{
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        gap: 5%;
-    }
-
-    
-.footer-pic{
+  .footer-pic {
     width: 30vh;
-
-}
-.btn{
-
+  }
+  .btn {
     height: 20%;
     width: 30%;
-}
+  }
 
-.message{
+  .message {
     color: white;
     font-size: 1.3em;
-}
-.footer-images{
+  }
+  .footer-images {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 2%;
     overflow-x: auto;
-
-
-}
-.footer-image-2{
+  }
+  .footer-image-2 {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
+  }
 
-}
-
-.contact{
-
+  .contact {
     height: 40%;
     width: 60%;
-}
+  }
 }
