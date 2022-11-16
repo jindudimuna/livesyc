@@ -124,6 +124,11 @@ a.nav-link{
 
 @media only screen and ( max-width: 414px){
 
+
+    a.nav-link{
+    
+        font-size: 1.2em;
+    }
     .intro{
         font-family: 'Righteous', cursive;
         font-size: 2em;
@@ -131,6 +136,10 @@ a.nav-link{
         margin-bottom: 8%;
         
     
+    }
+
+    .collapse{
+        margin-left: 2%;
     }
 
     .hero-image{
