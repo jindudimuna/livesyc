@@ -15,10 +15,19 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.fa-bars{
+    font-size: 2em;
+    color: black;
+}
 
 .fas{
     padding-right: 2%;
+    color: black;
+}
+
+a.nav-link{
+    
+    font-size: 1.5em;
 }
 
 
