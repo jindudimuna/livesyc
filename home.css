@@ -97,13 +97,21 @@
 
 .btn{
 
-    height: 80px;
+    height: 80%;
+    width: 20%;
 }
 
 .message{
     color: white;
+    font-size: 2em;
 }
 
+
+.shop-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
 
 @media only screen and ( max-width: 414px){
 
@@ -133,7 +141,16 @@
     width: 30vh;
 
 }
+.btn{
 
+    height: 20%;
+    width: 30%;
+}
+
+.message{
+    color: white;
+    font-size: 1.3em;
+}
 .footer-images{
     display: flex;
     flex-direction: row;

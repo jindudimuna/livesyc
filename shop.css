@@ -25,13 +25,12 @@
 
 .btn{
 
-    height: 80px;
-    width: 150px;
+    height: 80%;
+    width: 20%;
 }
-
 .message{
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 
@@ -46,5 +45,17 @@
 	font-family: 'Goldman';
 }
 
+@media only screen and ( max-width: 414px){
 
+    .btn{
+
+        height: 20%;
+        width: 30%;
+    }
+    
+    .message{
+        color: white;
+        font-size: 1.3em;
+    }
+}
 
