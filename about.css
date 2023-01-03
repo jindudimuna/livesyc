@@ -1,84 +1,71 @@
-
-body{
-    background-color: #FFFDFA;
+body {
+  background-color: #fffdfa;
 }
-.animate__slideInDown{
-	animation-duration:3s;
-    font-family: 'Michroma', 'roboto';
-	font-size: 2rem;
-	
-	color: black;
-    line-height: 2em;
+.animate__slideInDown {
+  animation-duration: 3s;
+  font-family: "Michroma", "roboto";
+  font-size: 2rem;
 
+  color: black;
+  line-height: 2em;
 }
 
 .container {
-    display: flex;
-
-
+  display: flex;
 }
 
-.contributor{
-	text-decoration: underline;
-	text-align: center;
-	font-family: "langith";
-	font-size: 2rem;
-	color: black;
+.contributor {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "langith";
+  font-size: 2rem;
+  color: black;
 }
 
 .animate__slideInUp {
-	animation-duration: 3s;
-	font-family: "aviano sans regular";
-	font-size: 1.5rem;
-	text-align: center;
-    
+  animation-duration: 3s;
+  font-family: "aviano sans regular";
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-ul{
-	color: white;
+ul {
+  color: white;
 }
 
-a{
-	color: white;
-	text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-button{
-	background-color: black;
-	color: white;
-	border: none;
-	margin:8px ;
-	border-radius: 12px;
-	font-size: 1.2rem;
-	padding: 10px;
-	cursor: pointer;
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 8px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  padding: 10px;
+  cursor: pointer;
 }
 
-
-.about-img{
-    width: 70vw;
-    border-radius:2%;
-
+.about-img {
+  width: 70vw;
+  border-radius: 2%;
 }
 
-
-.about-banner{
-    display: flex;
-    justify-content: center;
+.about-banner {
+  display: flex;
+  justify-content: center;
 }
 
-@media only screen and ( max-width: 414px){
-
-    
-.animate__slideInDown{
-
+@media only screen and (max-width: 514px) {
+  .animate__slideInDown {
     font-size: 1em;
-}
+  }
 
-.container {
+  .container {
     display: flex;
-	width: 80%;
-
-}
-
+    width: 80%;
+  }
 }

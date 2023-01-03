@@ -1,39 +1,27 @@
-.project-links{
-    text-decoration: none;
-    color: black;
-    font-family: 'Righteous', cursive;
-    font-size: 2em;
-    margin-top: 3%;
-
-
+.project-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  margin-top: 3%;
 }
 
-.projects{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
-.animate__fadeInDown{
-
-	animation-duration: 2s;
+.animate__fadeInDown {
+  animation-duration: 2s;
 }
 
-
-
-
-@media only screen and ( max-width: 414px){
-
-
-.projects{
+@media only screen and (max-width: 514px) {
+  .projects {
     margin-top: 40%;
-}
+  }
 
-.project-links{
-  
+  .project-links {
     margin-top: 5%;
-
-
-}
-
+  }
 }
